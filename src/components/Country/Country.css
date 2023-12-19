@@ -1,0 +1,56 @@
+.country {
+    background-color: azure;
+    position: relative;
+    width: 350px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.country:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.country img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.country h2 {
+    color: green;
+    margin-top: 10px;
+    font-size: 1.5rem;
+    transition: color 0.3s ease-in-out;
+}
+
+.country:hover h2 {
+    color: blue;
+}
+
+.country h3 {
+    color: goldenrod;
+    margin-top: 5px;
+    font-size: 1.2rem;
+}
+
+/* Add animations for more interactivity */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.country img,
+.country h2,
+.country h3 {
+    animation: fadeIn 0.5s ease-in-out;
+}
