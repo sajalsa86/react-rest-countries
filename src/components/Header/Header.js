@@ -4,7 +4,7 @@ const Header = () => {
     return (
         <div>
             <nav>
-                <h1>Welcome to  my Rest Countries</h1>
+                <h1>Welcome to  my Rest Countries.</h1>
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
