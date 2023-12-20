@@ -1,0 +1,28 @@
+nav h1 {
+    background-color: cadetblue;
+    color: azure;
+    font-weight: bold;
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    /* Center the li items horizontally */
+}
+
+nav ul li {
+    background-color: chocolate;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: gold;
+    font-size: 1.8rem;
+}
