@@ -13,7 +13,7 @@ const Countries = () => {
 
     return (
         <div>
-            <h1 style={{ color: 'orange' }}>Welcome to Rest Countries: {countries.length}</h1>
+            <h1 style={{ color: 'orange' }}>Welcome to  my Rest Countries: {countries.length}</h1>
 
             <div className='countries'>
                 {countries.map(country => (
